@@ -39,3 +39,8 @@ body{
 	text-decoration: none;
 	color: black;
 }
+
+.edit {
+	display: flex;
+	justify-content: center;
+}

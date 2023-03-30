@@ -112,6 +112,10 @@ body{
 	font-size: 20px;
 }
 
+.edit {
+	display: flex;
+	justify-content: center;
+}
 
 /* clothing content */
 
@@ -129,6 +133,7 @@ body{
 .type {
 	/*top, right, bottom, left	*/
 /*	padding: 0px 20px 0px 20px;*/
+	width: 500px;
 }
 
 .type img {

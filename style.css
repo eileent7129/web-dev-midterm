@@ -60,6 +60,11 @@ body{
 	height: auto;
 }
 
+.contentOne a {
+	text-decoration: none;
+	color: black;
+}
+
 .contentTwo {
 	display: flex;
 	justify-content: center;
@@ -72,6 +77,11 @@ body{
 .contentTwo img{
 	width: 350px;
 	height: auto;
+}
+
+.contentTwo a {
+	text-decoration: none;
+	color: black;
 }
 
 .contentThree {
@@ -87,4 +97,9 @@ body{
 .contentThree img{
 	width: 400px;
 	height: auto;
+}
+
+.contentThree a {
+	text-decoration: none;
+	color: black;
 }
