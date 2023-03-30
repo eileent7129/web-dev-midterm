@@ -1,0 +1,90 @@
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(poppins_regular.ttf);
+}
+
+*{
+	font-family: myFirstFont;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+.titleContainer {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin: 10px;
+}
+
+.titleContainer h1{
+	margin: 0px;
+}
+
+.titleContainer h1{
+	margin: 0px;
+}
+
+.titleContainer a {
+	text-decoration: none;
+	color: black;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-around;        
+	align-items: center;
+	background-color: #CB997E;
+}
+
+.navBar a {
+	text-decoration: none;
+	color: black;
+}
+
+.contentOne {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F1EDE6;
+	gap: 75px;
+	height: 750px;
+
+}
+
+.contentOne img{
+	width: 400px;
+	height: auto;
+}
+
+.contentTwo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	gap: 75px;
+	height: 750px;
+}
+
+.contentTwo img{
+	width: 350px;
+	height: auto;
+}
+
+.contentThree {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F1EDE6;
+	gap: 75px;
+	height: 750px;
+
+}
+
+.contentThree img{
+	width: 400px;
+	height: auto;
+}
