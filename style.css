@@ -13,6 +13,7 @@ body{
 	margin: 0px;
 }
 
+
 .titleContainer {
 	display: flex;
 	justify-content: center;
@@ -31,6 +32,11 @@ body{
 .titleContainer a {
 	text-decoration: none;
 	color: black;
+}
+
+.titleContainer a:hover {
+	text-decoration: none;
+	background-color: white;
 }
 
 .navBar {
