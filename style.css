@@ -34,10 +34,11 @@ body{
 	color: black;
 }
 
-.titleContainer a:hover {
+.navBar a:hover {
 	text-decoration: none;
-	background-color: white;
+	color: white;
 }
+
 
 .navBar {
 	display: flex;
@@ -108,4 +109,145 @@ body{
 .contentThree a {
 	text-decoration: none;
 	color: black;
+}
+
+/*browser must be 600px wide or less to meet these rules*/
+@media screen and (max-width: 600px) {
+
+	@font-face {
+		font-family: myFirstFont;
+		src: url(poppins_regular.ttf);
+	}
+
+	*{
+		font-family: myFirstFont;
+		box-sizing: border-box;
+	}
+
+	body{
+		margin: 0px;
+	}
+
+
+	.titleContainer {
+		display: flex;
+		justify-content: center;
+		background-color: white;
+		margin: 10px;
+	}
+
+	.titleContainer h1{
+		margin: 0px;
+	}
+
+	.titleContainer h1{
+		margin: 0px;
+	}
+
+	.titleContainer a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.navBar a:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;        
+		align-items: center;
+		background-color: #CB997E;
+	}
+
+	.navBar a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.contentOne {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: #F1EDE6;
+		height: 750px;
+		gap: 0px 50px;
+	}
+
+	.contentOne img{
+		width: 400px;
+		height: auto;
+	}
+
+	.contentOne .textOne {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.contentOne a {
+		text-decoration: none;
+		color: black;
+	}
+
+
+	.contentTwo {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: white;
+		gap: 0px 50px;
+		height: 750px;
+	}
+
+	.contentTwo img{
+		width: 350px;
+		height: auto;
+	}
+
+	.contentTwo .textTwo {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+
+	.contentTwo a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.contentThree {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: #F1EDE6;
+		height: 750px;
+		gap: 0px 50px;
+
+	}
+
+	.contentThree img{
+		width: 400px;
+		height: auto;
+	}
+
+	.contentThree .textThree {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.contentThree a {
+		text-decoration: none;
+		color: black;
+	}
+
+
 }

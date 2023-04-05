@@ -41,6 +41,12 @@ body{
 	color: black;
 }
 
+
+.navBar a:hover {
+	text-decoration: none;
+	color: white;
+}
+
 .pageTitle {
 	display: flex;
 	justify-content: center;
@@ -119,4 +125,63 @@ body{
 	justify-content: center;
 	font-size: 30px;
 	font-weight: bold;
+}
+
+/*browser must be 600px wide or less to meet these rules*/
+@media screen and (max-width: 600px) {
+
+	@font-face {
+		font-family: myFirstFont;
+		src: url(poppins_regular.ttf);
+	}
+
+	*{
+		font-family: myFirstFont;
+		box-sizing: border-box;
+	}
+
+	body{
+		margin: 0px;
+	}
+
+
+	.titleContainer {
+		display: flex;
+		justify-content: center;
+		background-color: white;
+		margin: 10px;
+	}
+
+	.titleContainer h1{
+		margin: 0px;
+	}
+
+	.titleContainer h1{
+		margin: 0px;
+	}
+
+	.titleContainer a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.navBar a:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;        
+		align-items: center;
+		background-color: #CB997E;
+	}
+
+	.navBar a {
+		text-decoration: none;
+		color: black;
+	}
+
 }
